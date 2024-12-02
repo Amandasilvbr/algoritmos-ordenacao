@@ -1,6 +1,6 @@
 package main
 
-// Bubble Sort: Sorts by comparing and swapping adjacent elements until sorted.
+// Bubble Sort: Sorts by comparing and swapping adjacent elements until sorted. A
 func bubbleSort(arr []int) (comparisons, swaps int) {
 	n := len(arr)
 	for i := 0; i < n-1; i++ {
