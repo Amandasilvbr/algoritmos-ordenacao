@@ -7,10 +7,9 @@ import (
 func main() {
 	sizes := []int{1000, 10000, 100000}
 
-	// Algoritmos a serem testados
 	algorithms := []struct {
 		name   string
-		sorter func([]int) (int, int) // Função de ordenação que retorna comparações e trocas
+		sorter func([]int) (int, int)
 	}{
 		{"Bubble Sort", bubbleSort},
 		{"Improved Bubble Sort", improvedBubbleSort},
@@ -23,10 +22,6 @@ func main() {
 		{"Pancake Sort", pancakeSort},
 	}
 
-	// Gerar gráfico
-	generateGraph(algorithms, sizes)
-
-	// Gerar tabela
 	generateTable(algorithms, sizes)
 
 	fmt.Println("\nTestes concluídos.")
