@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	sizes := []int{1000, 10000, 100000}
+	sizes := []int{1000, 5000, 10000, 50000, 100000}
 
 	algorithms := []struct {
 		name   string
