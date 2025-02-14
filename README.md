@@ -53,7 +53,7 @@ Bubble Sort             1000                    Caso Médio      1              
 Bubble Sort             1000                    Pior Caso       1               499500          499500
 Bubble Sort             10000                   Melhor Caso     48              49995000        0
 Bubble Sort             10000                   Caso Médio      97              49995000        24996135
-Bubble Sort             10000                   Pior Caso       70              49995000        49995000
+Bubble Sort             10000                   Pior Caso       102             500000000       500005000
 ```
 
 ### Descrição do Código
